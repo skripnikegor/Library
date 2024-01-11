@@ -13,6 +13,8 @@
         public List<Author> PreferedAuthors { get; set; }
         public List<Genre> PreferedGenres { get; set; }
         public List<Book> PreferedBooks { get; set; }
+        public List<Book> ReservedBooks { get; set; }
+        public List<Book> CurrentlyReadingBooks { get; set; }
         public Role Role { get; set; }
     }
 }
