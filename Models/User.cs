@@ -10,9 +10,9 @@
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
         public string Password { get; set; }
-        public List<string> PreferedAuthtors { get; set; }
+        public List<Author> PreferedAuthors { get; set; }
         public List<string> PreferedGenres { get; set; }
-        public List<string> PreferedBooks { get; set; }
+        public List<Book> PreferedBooks { get; set; }
         public Role Role { get; set; }
     }
 }
